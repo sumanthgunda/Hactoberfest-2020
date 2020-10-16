@@ -1,0 +1,3 @@
+import base64
+print("[!]Your Plain-Text will be dispalyed after you enter 'Yourtext' ")
+print (base64.b32decode(input("Enter Base32 String: ")))
